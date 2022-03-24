@@ -3,11 +3,11 @@
 # Maintainer: aryton.tediarjo@sagebase.org
 default:
   git:
-    path: "~/git_token.txt"
+    path: "./git_token.txt"
     repo: "Sage-Bionetworks/mPowerRerun"
     branch: "main"
   output:
-    project_id: "syn26282646"
+    project_id: "syn28294539"
   additional:
     voice_features: 'syn22041873' #generated voice features from matlab (not reproducible)
 public:
