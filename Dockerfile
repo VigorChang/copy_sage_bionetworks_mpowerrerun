@@ -9,7 +9,7 @@ RUN apt-get update -y\
     && apt-get install -y git
     
 ## run git cloning
-RUN git clone --branch renv https://github.com/Sage-Bionetworks/mPowerRerun /root/mPowerRerun
+RUN git clone --branch renv https://github.com/VigorChang/copy_sage_bionetworks_mpowerrerun /root/mPowerRerun
 
 ## change work dir
 WORKDIR /root/mPowerRerun
