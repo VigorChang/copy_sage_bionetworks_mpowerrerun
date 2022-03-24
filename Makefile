@@ -11,7 +11,7 @@ GENERATE_FILTERED_HEALTHCODE_PATH=R/FilterHealthCode/
 # TARGET COMMANDS                                                             #
 #################################################################################
 
-all: clean_log project raw_features processed_features filtered_healthcodes analyses figures
+all: clean_log project filtered_healthcodes
 regenerate_paper: clean_log project raw_features processed_features replicate_healthcodes analyses figures
 
 # create directory for I/O when running in makefile
